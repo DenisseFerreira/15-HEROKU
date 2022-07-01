@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   console.log('Resolving / endpoint');
   res.json({
     pid: process.pid,
-    msg: `HOLA desde puerto ${PORT} y process id ${process.pid}`,
+    msg: `Escuchando en el puerto${PORT} con el PID ${process.pid}`,
   });
 });
 
